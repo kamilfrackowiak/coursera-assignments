@@ -14,7 +14,7 @@ h1 {
 @media (min-width: 992px) {
 .Football, .Speedway, .Basketball{
 	float: left;
-	background-color: gray;
+	background-color: #fdcfc0;
 	border: 1px solid black;
 	margin: 8px;
 		}
@@ -33,7 +33,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
 .Football, .Speedway, .Basketball{
 	float: left;
-	background-color: gray;
+	background-color: #fdcfc0;
 	border: 1px solid black;
 	margin: 8px;
 		}
@@ -52,7 +52,7 @@ h1 {
 @media (max-width: 767px) {
 .Football, .Speedway, .Basketball{
 	float: left;
-	background-color: gray;
+	background-color: #fdcfc0;
 	border: 1px solid black;
 	margin: 8px;
 		}
@@ -75,12 +75,12 @@ h2 {
  	position: relative;
   	float: right;
   	margin-top: 0px;
-  	margin-top: 0px;
+  	padding: 5px;
 	
 
 }
 #first {
-	background-color: #99ffcc;
+	background-color: #2db4b4;
 
 	
 	
@@ -96,7 +96,7 @@ h2 {
 p {
 	
 	
-	padding: 7px;
-  	margin-left: auto;
+	padding: 10px;
+  	margin-left: 10px;
 	margin-top: 40px;
 }
