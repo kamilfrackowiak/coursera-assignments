@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	
+}
+h1 {
+	
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.container {
+  width: 100%;
+}
+@media (min-width: 992px) {
+.Football, .Speedway, .Basketball{
+	float: left;
+	background-color: gray;
+	border: 1px solid black;
+	margin: 8px;
+		}
+	
+	.Football	{
+
+		width: 31%;
+	}
+	.Speedway	{
+		width: 33%;
+	}
+	.Basketball	{
+		width: 31%
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.Football, .Speedway, .Basketball{
+	float: left;
+	background-color: gray;
+	border: 1px solid black;
+	margin: 8px;
+		}
+	
+	.Football	{
+
+		width: 40%;
+	}
+	.Speedway	{
+		width: 40%;
+	}
+	.Basketball	{
+		width: 80%
+	}
+}
+@media (max-width: 767px) {
+.Football, .Speedway, .Basketball{
+	float: left;
+	background-color: gray;
+	border: 1px solid black;
+	margin: 8px;
+		}
+	
+	.Football	{
+
+		width: 80%;
+	}
+	.Speedway	{
+		width: 80%;
+	}
+	.Basketball	{
+		width: 80%
+	}
+}
+h2 {
+  	font-size: 25px;
+  	font-weight: bold;
+  	color: solid black;
+ 	position: relative;
+  	float: right;
+  	margin-top: 0px;
+  	margin-top: 0px;
+	
+
+}
+#first {
+	background-color: #99ffcc;
+
+	
+	
+}
+#second {
+	background-color: #ff99cc;
+
+}
+#third {
+	background-color: #fc7b11;
+
+}
+p {
+	
+	
+	padding: 7px;
+  	margin-left: auto;
+	margin-top: 40px;
+}
